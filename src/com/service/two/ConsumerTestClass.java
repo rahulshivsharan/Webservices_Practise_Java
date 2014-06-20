@@ -9,7 +9,7 @@ import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 
 
-public class ServiceConsumerTest {
+public class ConsumerTestClass {
     public static void main(String [] args){
         URL url = null;
         QName qName = null;
