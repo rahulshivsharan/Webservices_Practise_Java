@@ -8,7 +8,7 @@ import com.service.two.StudentInfoImpl;
 import javax.xml.ws.Endpoint;
 
 
-public class MainTestClass {
+public class PublisherTestClass {
     public static void main(String [] args){
         try{
             Endpoint.publish("http://localhost:9876/go", new StudentInfoImpl());
